@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-image: url(../imagens/bg-repeat.jpg);
+    font-family: Roboto;
+    background-repeat: repeat-x;
+    background-position: cover;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos {
+    width: 360px;
+    height: 111px;
+    color: white;
+    margin: 146px 50px;
+
+
+}
+
+.textos h1 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+    text-align: left;
+    margin: 11px;
+}
+
+.textos p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    text-align: left;
+    margin: 11px;
+}
+
+.campos {
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    margin: 12px 50px;
+}
+
+.campos .nome {
+    width: 298.01px;
+    height: 35.11px;
+    border-radius: 5px;
+    margin: 20px 20px 0px 21.99px;
+}
+.nome::placeholder{
+    position: absolute;
+    top: 7px;
+    left: 9px;
+}
+
+.campos .email {
+    width: 298.01px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 14.89px 20.99px 0px 21px;
+}
+
+.email::placeholder {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+}
+
+.campos .telefone {
+    width: 298.01px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 15px 20px 0px 21.99px;
+}
+
+.telefone::placeholder {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.campos .mensagem {
+    width: 298.01px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 15px 20px 0px 21.99px;
+}
+
+.mensagem::placeholder {
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
+
+.campos p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 7px 180px 20px 15px;
+}
+
+.campos .btn-enviar {
+    width: 298.01px;
+    height: 41.13px;
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+
+    background: #3CCC87;
+    margin: 20px 21.99px 21.87px 20px;
+}
+
+.campos .btn-enviar:hover {
+    background: #2C9B6B;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.mensagem-obrigatório {
+    font-size: 8px;
+    font-weight: 400;
+    color: #F52E2E;
+    margin-left: 25px;
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.verde {
+    border: 1px solid #00C22B;
+}
+
+.vermelho {
+    border: 1px solid #F52E2E;
+}
